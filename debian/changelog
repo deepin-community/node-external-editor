@@ -1,0 +1,81 @@
+node-external-editor (2.2.0+dfsg-2) unstable; urgency=medium
+
+  * Team upload
+  * Back to unstable
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 13 Mar 2020 13:53:31 +0100
+
+node-external-editor (2.2.0+dfsg-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream version 2.2.0+dfsg
+  * Refresh patches
+  * Require node-jschardet ≥ 2.1.1+repack-1~
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 07 Mar 2020 11:22:32 +0100
+
+node-external-editor (2.0.4+dfsg-5) unstable; urgency=medium
+
+  * Team upload
+  * Back to unstable
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 23 Feb 2020 08:21:42 +0100
+
+node-external-editor (2.0.4+dfsg-4) experimental; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.4.1, no changes needed.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add fix for node-jschardet ≥ 2
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 21 Feb 2020 00:39:55 +0100
+
+node-external-editor (2.0.4+dfsg-3) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:42:58 +0200
+
+node-external-editor (2.0.4+dfsg-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Paolo Greppi ]
+  * Update Vcs fields for migration to https://salsa.debian.org/
+
+  [ Xavier Guimard ]
+  * Add upstream/metadata
+  * Update debian/copyright format URL
+  * Test: replace the use of deprecated "--compilers" by a test on generated
+    files (fixes debci)
+  * Use debian/clean instead of an override
+  * Declare compliance with policy 4.3.0
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 27 Mar 2019 16:03:23 +0100
+
+node-external-editor (2.0.4+dfsg-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 2.0.4+dfsg
+  * Bump standards, update section
+  * TODO: wait for node-jschardet to clear NEW
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 03 Jan 2018 15:17:45 +0530
+
+node-external-editor (2.0.1+dfsg-1) unstable; urgency=low
+
+  * Initial release (Closes: #848371)
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Mon, 19 Dec 2016 16:04:48 +0000

@@ -1,0 +1,2 @@
+use-compiled-files-for-mocha.diff
+#replace-chardet-by-jschardet.diff
