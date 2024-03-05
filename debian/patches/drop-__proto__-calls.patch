@@ -1,0 +1,53 @@
+Description: drop __proto__ calls
+Author: Yadd <yadd@debian.org>
+Forwarded: no
+Last-Update: 2022-11-30
+
+--- a/src/errors/CreateFileError.ts
++++ b/src/errors/CreateFileError.ts
+@@ -13,8 +13,7 @@
+         if ((Object as any).setPrototypeOf) {
+             (Object as any).setPrototypeOf(this, proto);
+         } else {
+-            (this as any).__proto__ = new.target.prototype;
+-
++            Object.setPrototypeOf(this as any, new.target.prototype);
+         }
+     }
+ }
+--- a/src/errors/LaunchEditorError.ts
++++ b/src/errors/LaunchEditorError.ts
+@@ -13,8 +13,7 @@
+         if ((Object as any).setPrototypeOf) {
+             (Object as any).setPrototypeOf(this, proto);
+         } else {
+-            (this as any).__proto__ = new.target.prototype;
+-
++            Object.setPrototypeOf(this as any, new.target.prototype);
+         }
+     }
+ }
+--- a/src/errors/ReadFileError.ts
++++ b/src/errors/ReadFileError.ts
+@@ -13,8 +13,7 @@
+         if ((Object as any).setPrototypeOf) {
+             (Object as any).setPrototypeOf(this, proto);
+         } else {
+-            (this as any).__proto__ = new.target.prototype;
+-
++            Object.setPrototypeOf(this as any, new.target.prototype);
+         }
+     }
+ }
+--- a/src/errors/RemoveFileError.ts
++++ b/src/errors/RemoveFileError.ts
+@@ -13,8 +13,7 @@
+         if ((Object as any).setPrototypeOf) {
+             (Object as any).setPrototypeOf(this, proto);
+         } else {
+-            (this as any).__proto__ = new.target.prototype;
+-
++            Object.setPrototypeOf(this as any, new.target.prototype);
+         }
+     }
+ }

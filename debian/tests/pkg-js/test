@@ -1,3 +1,2 @@
-coffee -c --output test/spec/ test/spec/main.coffee
-mocha --recursive --timeout 10000 ./test/spec -R spec
-rm -f test/spec/main.js
+export HOME=/tmp
+mocha --recursive --require ts-node/register --timeout 60000 ./test/spec 'test/spec/**/*.ts'

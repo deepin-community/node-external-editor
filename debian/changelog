@@ -1,3 +1,29 @@
+node-external-editor (3.1.0+dfsg-2) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.1, no changes needed.
+  * Drop embedded test module (es6-shim)
+  * Drop __proto__ calls
+
+ -- Yadd <yadd@debian.org>  Wed, 30 Nov 2022 23:10:14 +0100
+
+node-external-editor (3.1.0+dfsg-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+    * Fix GitHub tags regex
+    * Fix filenamemangle
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Update standards version to 4.6.0, no changes needed.
+  * Drop nodejs dependency
+  * Mark test dependencies with <!nocheck>
+  * New upstream version 3.1.0+dfsg
+  * Build with tsc
+  * Update test
+
+ -- Yadd <yadd@debian.org>  Wed, 08 Dec 2021 18:34:49 +0100
+
 node-external-editor (2.2.0+dfsg-2) unstable; urgency=medium
 
   * Team upload

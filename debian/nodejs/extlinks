@@ -1,0 +1,4 @@
+@types/chai	test
+@types/mocha	test
+@types/node
+@types/tmp

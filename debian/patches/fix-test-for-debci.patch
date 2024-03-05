@@ -1,0 +1,20 @@
+Description: fix test for debci
+Author: Yadd <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2021-12-08
+
+--- a/test/spec/main.spec.ts
++++ b/test/spec/main.spec.ts
+@@ -137,10 +137,10 @@
+ 
+     it("dir", () => {
+         editor = new ExternalEditor("testing", {
+-            dir: __dirname,
++            dir: '/tmp',
+         });
+ 
+-        assert.equal(dirname(editor.tempFile), __dirname);
++        assert.equal(dirname(editor.tempFile), '/tmp');
+     });
+ 
+     it("mode", () => {

@@ -1,2 +1,2 @@
-use-compiled-files-for-mocha.diff
-#replace-chardet-by-jschardet.diff
+fix-test-for-debci.patch
+drop-__proto__-calls.patch
