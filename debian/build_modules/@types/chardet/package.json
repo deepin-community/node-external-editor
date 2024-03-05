@@ -1,0 +1,24 @@
+{
+    "name": "@types/chardet",
+    "version": "0.5.0",
+    "description": "TypeScript definitions for chardet",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Hauke Oldsen",
+            "url": "https://github.com/Gebatzens",
+            "githubUsername": "Gebatzens"
+        }
+    ],
+    "main": "",
+    "repository": {
+        "type": "git",
+        "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/node": "*"
+    },
+    "typesPublisherContentHash": "12340639f3b3e0750148c23ca0a3519246dca30d912e2d00e9c5032774b78d07",
+    "typeScriptVersion": "2.0"
+}
